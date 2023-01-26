@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Evasi0nKernel
+kernel.string=AoiNeko
 do.devicecheck=1
 do.modules=0
 do.systemless=0
@@ -15,7 +15,7 @@ device.name2=Cepheus
 device.name3=cepheus-user
 device.name4=Mi 9
 device.name5=Mi9
-supported.versions=12
+supported.versions=13
 supported.patchlevels=
 '; } # end properties
 
