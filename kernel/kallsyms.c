@@ -215,8 +215,7 @@ static bool cleanup_symbol_name(char *s)
 	}
 
 	if (!IS_ENABLED(CONFIG_CFI_CLANG) ||
-	    !IS_ENABLED(CONFIG_LTO_CLANG_THIN) ||
-	    CONFIG_CLANG_VERSION >= 130000)
+	    !IS_ENABLED(CONFIG_LTO_CLANG_THIN))
 		return false;
 
 	/*
