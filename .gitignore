@@ -39,6 +39,11 @@
 *.symtypes
 *.tar
 *.xz
+a.sh
+b.sh
+d.sh
+/out
+/KernelSU
 Module.symvers
 modules.builtin
 
