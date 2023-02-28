@@ -1982,6 +1982,10 @@ void sdhci_cfg_irq(struct sdhci_host *host, bool enable, bool sync)
 }
 
 EXPORT_SYMBOL(sdhci_cfg_irq);
+<<<<<<< HEAD
+=======
+
+>>>>>>> e48b8991e31109fdb541fa7e43e419c25a871b0b
 static bool sdhci_timing_has_preset(unsigned char timing)
 {
 	switch (timing) {
