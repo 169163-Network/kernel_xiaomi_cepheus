@@ -197,7 +197,6 @@ void panic(const char *fmt, ...)
 	bool _crash_kexec_post_notifiers = crash_kexec_post_notifiers;
 
 	trace_kernel_panic(0);
-	
 	if (panic_on_warn) {
 		/*
 		 * This thread may hit another WARN() in the panic path.
